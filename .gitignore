@@ -1,0 +1,64 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Sensitive Config ###
+src/main/resources/application.yml
+src/main/resources/application.properties
+
+### Uploads ###
+uploads/
+
+### Frontend Build Artifacts in Static ###
+src/main/resources/static/assets/
+
+### Logs ###
+*.log
+logs/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Temp Files ###
+~$*
+*.tmp
+screenshots/
+uml_images/
+generate_*.py
+render_*.py
+*.html
+!student-frontend/**/*.html
+
+### Frontend Dev Data ###
+student-frontend/data/
